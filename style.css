@@ -29,18 +29,21 @@ a {
 ul {
     list-style-type: none;
     gap: 15px;
+    font-size: 18px;
+    color: #E5E7EB;
 }
 
 .topbutton {
     color: #F9FAF8;
     background-color: #3882F6;
     border: 0px;
-    border-radius: 10%;
+    border-radius: 8%;
 }
 
 .coverimage {
     height: auto;
     width: 400px;
+    border-radius: 10px;
 }
 
 .bottomheader {
@@ -48,7 +51,6 @@ ul {
     justify-content: space-between;
     gap: 25px;
     align-items: center;
-
 }
 
 .textheadbutton {
@@ -61,3 +63,24 @@ h1 {
     padding-bottom: 1px;
 } 
 /*Body styling*/
+h2 {
+    text-align: center;
+    color: #1F2937;
+}
+
+.projectpic {
+    width: 100px;
+    height: auto;
+    border-radius: 100px;
+    border: 2px solid #3882F6;
+}
+
+.projects {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.picwords {
+    color: #1F2937;
+}
