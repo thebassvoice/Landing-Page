@@ -37,7 +37,7 @@ ul {
     color: #F9FAF8;
     background-color: #3882F6;
     border: 0px;
-    border-radius: 8%;
+    border-radius: 5px;
 }
 
 .coverimage {
@@ -82,25 +82,55 @@ h2 {
 }
 
 .picwords {
+    display: flex;
+    flex-direction: column;
     color: #1F2937;
+    text-align: center;
 }
 /*Quote*/
 .quote {
     background-color: #E5E7EB;
-    padding: 5%;
+    padding: 3%;
     font-style: italic;
+    font-size: 26px;
     text-align: justify;
+    margin-left: 30%;
+    margin-right: 30%;
 }
 
-#steve {
+.emptyquote {
+    display: flex;
+    background-color: #E5E7EB;
+    justify-content: center;   
+}
+
+.steve {
     display: flex;
     justify-content: flex-end;
     font-weight: bold;
 }
-
-.steve,
-.jobs {
+/*Tab*/
+.tab {
     display: flex;
     justify-content: center;
-    margin: 0%;
+    background-color: #3882F6;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 10px;
+    align-items: center;
+    color: #F9FAF8;
+    gap: 15px;
+}
+
+.emptytab {
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+}
+
+.tabbutton {
+    background-color: #3882F6;
+    border-color: #F9FAF8;
+    border-radius: 5px;
+
 }
