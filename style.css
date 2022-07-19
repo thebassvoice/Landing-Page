@@ -84,3 +84,23 @@ h2 {
 .picwords {
     color: #1F2937;
 }
+/*Quote*/
+.quote {
+    background-color: #E5E7EB;
+    padding: 5%;
+    font-style: italic;
+    text-align: justify;
+}
+
+#steve {
+    display: flex;
+    justify-content: flex-end;
+    font-weight: bold;
+}
+
+.steve,
+.jobs {
+    display: flex;
+    justify-content: center;
+    margin: 0%;
+}
