@@ -120,6 +120,7 @@ h2 {
     align-items: center;
     color: #F9FAF8;
     gap: 15px;
+    
 }
 
 .emptytab {
@@ -133,4 +134,13 @@ h2 {
     border-color: #F9FAF8;
     border-radius: 5px;
     color: #E5E7EB;
+}
+/*Tab*/
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    background-color: #1F2937;
+    color: #E5E7EB;
+    text-align: center;
 }
