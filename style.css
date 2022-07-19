@@ -1,11 +1,14 @@
+/*header styling*/
 .head {
     background-color: #1F2937;
     color: #F9FAF8;
+    padding: 16px;
 }
 
 .header {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 2%;
 }
 
 h1 {
@@ -45,15 +48,16 @@ ul {
     justify-content: space-between;
     gap: 25px;
     align-items: center;
-  justify-content: center;
+
 }
-/*
+
 .textheadbutton {
-    background-color: red;
-    padding-inline: px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
 }
 
 h1 {
-    padding: 0px;
-    margin: ;
-} */
+    padding-bottom: 1px;
+} 
+/*Body styling*/
